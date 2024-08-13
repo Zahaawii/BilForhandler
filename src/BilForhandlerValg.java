@@ -10,7 +10,7 @@ public class BilForhandlerValg {
         int brugerValg;
 
         do{
-            System.out.println("Tast dit 1, 2 eller 3");
+            System.out.println("Tast 1, 2 eller 3");
             try {
                 brugerValg = Integer.parseInt(scanner.next());
                 } catch (Exception e) {

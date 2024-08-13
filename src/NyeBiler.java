@@ -1,4 +1,3 @@
-import java.util.Arrays;
 import java.util.Scanner;
 
 public class NyeBiler {
@@ -13,7 +12,6 @@ static int mercedes = 4;
  public static void NyeBilerDisplay(String velkommen){
      System.out.println(velkommen);
      KonsolTing.printFordeler(30);
-
 
  }
 
@@ -36,20 +34,25 @@ static int mercedes = 4;
       } while (valgAfModel <= 0|| valgAfModel >= brugerValg);
 
      if (valgAfModel == ferrari){
-         System.out.println("Du har valgt ferrari");
-         return;
+         KonsolTing.printFordeler(30);
+         FerrariModeller.FerrariDisplayInfo("Hvilken ferrari kunne du tænke dig at kigge på?: ");
+         KonsolTing.printFordeler(30);
      }
      if (valgAfModel == lamborghini){
-         System.out.println("Du har valgt lamborghini");
-         return;
+         KonsolTing.printFordeler(30);
+         LamborghiniModeller.LamborghiniDisplayInfo("Hvilken Lamborghini kunne du tænke dig at kigge på?: ");
+         KonsolTing.printFordeler(30);
      }
      if (valgAfModel == porshce){
-         System.out.println("Du har valgt porsche");
-         return;
+         KonsolTing.printFordeler(30);
+         PorscheModeller.PorscheDisplayInfo("Hvilken Porsche kunne du tænke dig at kigge på?");
+         KonsolTing.printFordeler(30);
      }
 
      if (valgAfModel == mercedes){
-         System.out.println("Du har valgt mercedes");
+         KonsolTing.printFordeler(30);
+         MercedesModeller.FerrariDisplayInfo("Hvilen Mercedes kunne du tænke dig at kigge på?");
+         KonsolTing.printFordeler(30);
      }
 
  }

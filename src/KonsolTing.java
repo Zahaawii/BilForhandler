@@ -10,7 +10,7 @@ public class KonsolTing {
 
     public static void clearConsole(){
         for(int i = 0; i < 100; i++) {
-            System.out.println("");
+            System.out.println();
         }
     }
 
@@ -29,12 +29,14 @@ public class KonsolTing {
     }
 
     public static void valgDisplay () {
+        KonsolTing.printFordeler(30);
         System.out.println("Du har følgende valg:");
         System.out.println();
         System.out.println("Tast 1: For at se nye biler");
         System.out.println("Tast 2: For at se brugte biler");
         System.out.println("Tast 3: For at se leasing aftaler");
         System.out.println();
+        KonsolTing.printFordeler(30);
 
     }
 
