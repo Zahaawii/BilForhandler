@@ -24,18 +24,27 @@ public class BrugerValgPorscheModeller {
         if(brugervalg == porsche911) {
             BilerIndstillinger.BilIndstillingerDisplayIntro();
             PorscheModeller.porscheModel();
+            NyeBilerModelValgt.NyeBilerModelValgtDisplay("Porsche 911 model");
+            TilføjEkstraTingTilBilen.EkstraTilføjelser("Du har nu valgt din bil. \nDu kan tilføje yderligere komponenter til din bil");
+            TilføjEkstraTingTilBilen.EkstraTilføjelser("Kunne du tænke dig at tilføje flere komponenter end den ene?");
             return;
         }
 
         if(brugervalg == cayman){
             BilerIndstillinger.BilIndstillingerDisplayIntro();
             PorscheModeller.caymanModel();
+            NyeBilerModelValgt.NyeBilerModelValgtDisplay("Cayman model");
+            TilføjEkstraTingTilBilen.EkstraTilføjelser("Du har nu valgt din bil. \nDu kan tilføje yderligere komponenter til din bil");
+            TilføjEkstraTingTilBilen.EkstraTilføjelser("Kunne du tænke dig at tilføje flere komponenter end den ene?");
             return;
         }
 
         if(brugervalg == cayenne){
             BilerIndstillinger.BilIndstillingerDisplayIntro();
             PorscheModeller.cayenneModel();
+            NyeBilerModelValgt.NyeBilerModelValgtDisplay("Cayenne model");
+            TilføjEkstraTingTilBilen.EkstraTilføjelser("Du har nu valgt din bil. \nDu kan tilføje yderligere komponenter til din bil");
+            TilføjEkstraTingTilBilen.EkstraTilføjelser("Kunne du tænke dig at tilføje flere komponenter end den ene?");
         }
 
     }

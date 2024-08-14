@@ -44,12 +44,12 @@ public  class FerrariModeller {
     }
 
     public static void GTSmodel(){
-        BilerIndstillinger GTSmodel = new BilerIndstillinger("GTS", "GTS", "Rød", 0, "280 KM/T");
+        BilerIndstillinger GTSmodel = new BilerIndstillinger("GTS 1", "GTS", "Rød", 0, "280 KM/T");
         GTSmodel.BilIndstilligerDisplay();
-        BilerIndstillinger GTSmodel2 = new BilerIndstillinger("GTS", "GTS", "Sort", 0, "280 KM/T");
-        GTSmodel.BilIndstilligerDisplay();
-        BilerIndstillinger GTSmodel3 = new BilerIndstillinger("GTS", "GTS", "Blå", 0, "280 KM/T");
-        GTSmodel.BilIndstilligerDisplay();
+        BilerIndstillinger GTSmodel2 = new BilerIndstillinger("GTS 2", "GTS", "Sort", 0, "280 KM/T");
+        GTSmodel2.BilIndstilligerDisplay();
+        BilerIndstillinger GTSmodel3 = new BilerIndstillinger("GTS 3", "GTS", "Blå", 0, "280 KM/T");
+        GTSmodel3.BilIndstilligerDisplay();
 
     }
 

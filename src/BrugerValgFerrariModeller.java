@@ -24,18 +24,27 @@ public class BrugerValgFerrariModeller {
         if(brugervalg == sport) {
             BilerIndstillinger.BilIndstillingerDisplayIntro();
             FerrariModeller.sportsModel();
+            NyeBilerModelValgt.NyeBilerModelValgtDisplay("Sport model");
+            TilføjEkstraTingTilBilen.EkstraTilføjelser("Du har nu valgt din bil. \nDu kan tilføje yderligere komponenter til din bil");
+            TilføjEkstraTingTilBilen.EkstraTilføjelser("Kunne du tænke dig at tilføje flere komponenter end den ene?");
             return;
         }
 
         if(brugervalg == Roma){
             BilerIndstillinger.BilIndstillingerDisplayIntro();
             FerrariModeller.romaModel();
+            NyeBilerModelValgt.NyeBilerModelValgtDisplay("Roma model");
+            TilføjEkstraTingTilBilen.EkstraTilføjelser("Du har nu valgt din bil. \nDu kan tilføje yderligere komponenter til din bil");
+            TilføjEkstraTingTilBilen.EkstraTilføjelser("Kunne du tænke dig at tilføje flere komponenter end den ene?");
             return;
         }
 
         if(brugervalg == GTS){
             BilerIndstillinger.BilIndstillingerDisplayIntro();
             FerrariModeller.GTSmodel();
+            NyeBilerModelValgt.NyeBilerModelValgtDisplay("GTS model");
+            TilføjEkstraTingTilBilen.EkstraTilføjelser("Du har nu valgt din bil. \nDu kan tilføje yderligere komponenter til din bil");
+            TilføjEkstraTingTilBilen.EkstraTilføjelser("Kunne du tænke dig at tilføje flere komponenter end den ene?");
         }
 
     }

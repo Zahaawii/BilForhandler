@@ -23,18 +23,27 @@ public class BrugerValgMercedesModeller {
         if(brugervalg == aClass) {
             BilerIndstillinger.BilIndstillingerDisplayIntro();
             MercedesModeller.aClassModel();
+            NyeBilerModelValgt.NyeBilerModelValgtDisplay("A-Class model");
+            TilføjEkstraTingTilBilen.EkstraTilføjelser("Du har nu valgt din bil. \nDu kan tilføje yderligere komponenter til din bil");
+            TilføjEkstraTingTilBilen.EkstraTilføjelser("Kunne du tænke dig at tilføje flere komponenter end den ene?");
             return;
         }
 
         if(brugervalg == bClass){
             BilerIndstillinger.BilIndstillingerDisplayIntro();
             MercedesModeller.bClassModel();
+            NyeBilerModelValgt.NyeBilerModelValgtDisplay("B-Class model");
+            TilføjEkstraTingTilBilen.EkstraTilføjelser("Du har nu valgt din bil. \nDu kan tilføje yderligere komponenter til din bil");
+            TilføjEkstraTingTilBilen.EkstraTilføjelser("Kunne du tænke dig at tilføje flere komponenter end den ene?");
             return;
         }
 
         if(brugervalg == cClass){
             BilerIndstillinger.BilIndstillingerDisplayIntro();
             MercedesModeller.cClassModel();
+            NyeBilerModelValgt.NyeBilerModelValgtDisplay("C-Class model");
+            TilføjEkstraTingTilBilen.EkstraTilføjelser("Du har nu valgt din bil. \nDu kan tilføje yderligere komponenter til din bil");
+            TilføjEkstraTingTilBilen.EkstraTilføjelser("Kunne du tænke dig at tilføje flere komponenter end den ene?");
         }
 
     }

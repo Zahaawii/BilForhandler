@@ -24,18 +24,27 @@ public class BrugerValgLamborghiniModeller {
         if(brugervalg == urus) {
             BilerIndstillinger.BilIndstillingerDisplayIntro();
             LamborghiniModeller.UrusModel();
+            NyeBilerModelValgt.NyeBilerModelValgtDisplay("Urus model");
+            TilføjEkstraTingTilBilen.EkstraTilføjelser("Du har nu valgt din bil. \nDu kan tilføje yderligere komponenter til din bil");
+            TilføjEkstraTingTilBilen.EkstraTilføjelser("Kunne du tænke dig at tilføje flere komponenter end den ene?");
             return;
         }
 
         if(brugervalg == GT){
             BilerIndstillinger.BilIndstillingerDisplayIntro();
             LamborghiniModeller.GTModel();
+            NyeBilerModelValgt.NyeBilerModelValgtDisplay("GT model");
+            TilføjEkstraTingTilBilen.EkstraTilføjelser("Du har nu valgt din bil. \nDu kan tilføje yderligere komponenter til din bil");
+            TilføjEkstraTingTilBilen.EkstraTilføjelser("Kunne du tænke dig at tilføje flere komponenter end den ene?");
             return;
         }
 
         if(brugervalg == Revuelto){
             BilerIndstillinger.BilIndstillingerDisplayIntro();
             LamborghiniModeller.RevueltoModel();
+            NyeBilerModelValgt.NyeBilerModelValgtDisplay("Revuelto model");
+            TilføjEkstraTingTilBilen.EkstraTilføjelser("Du har nu valgt din bil. \nDu kan tilføje yderligere komponenter til din bil");
+            TilføjEkstraTingTilBilen.EkstraTilføjelser("Kunne du tænke dig at tilføje flere komponenter end den ene?");
         }
 
     }
