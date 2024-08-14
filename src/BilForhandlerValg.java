@@ -32,6 +32,7 @@ public class BilForhandlerValg {
             return;
         }
         if(brugerValg == leasingAftaler){
+            System.out.println("Lak tror du at du kan lease her, din noob");
 
         }
 
