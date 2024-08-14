@@ -4,16 +4,23 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9ca7cf53-d11a-4c8c-b540-0e59f057c520" name="Changes" comment="first commit">
-      <change afterPath="$PROJECT_DIR$/src/FerrariModeller.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/LamborghiniModeller.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/MercedesModeller.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/PorscheModeller.java" afterDir="false" />
+    <list default="true" id="9ca7cf53-d11a-4c8c-b540-0e59f057c520" name="Changes" comment="second commit">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/BilerIndstillinger.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/BrugerValgFerrariModeller.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/BrugerValgLamborghiniModeller.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/BrugerValgMercedesModeller.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/BrugerValgPorscheModeller.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Porschemodel.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/BilForhandlerValg.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BilForhandlerValg.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/FerrariModeller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/FerrariModeller.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/KonsolTing.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/KonsolTing.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LamborghiniModeller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LamborghiniModeller.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MercedesModeller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MercedesModeller.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/NyeBiler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/NyeBiler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/PorscheModeller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PorscheModeller.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,6 +68,7 @@
     "Application.Main.executor": "Run",
     "Attach to process.pid 20308.executor": "ProcessAttachDebug",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
     "node.js.detected.package.eslint": "true",
@@ -72,6 +80,20 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RunManager">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="BilForhandler" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -88,7 +110,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1723472411472</updated>
-      <workItem from="1723472412489" duration="9954000" />
+      <workItem from="1723472412489" duration="16482000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <option name="closed" value="true" />
@@ -98,7 +120,15 @@
       <option name="project" value="LOCAL" />
       <updated>1723492197514</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="second commit">
+      <option name="closed" value="true" />
+      <created>1723578968575</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1723578968575</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -106,6 +136,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="first commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="first commit" />
+    <MESSAGE value="second commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="second commit" />
   </component>
 </project>

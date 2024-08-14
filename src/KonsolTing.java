@@ -8,7 +8,7 @@ public class KonsolTing {
         System.out.println(titel);
     }
 
-    public static void clearConsole(){
+    public static void rensKonsol(){
         for(int i = 0; i < 100; i++) {
             System.out.println();
         }
@@ -24,7 +24,7 @@ public class KonsolTing {
     public static void trykForAtFortsætte(){
         System.out.println("Tast enter for at fortsætte");
         scanner.next();
-        clearConsole();
+        rensKonsol();
 
     }
 

@@ -5,6 +5,7 @@ public class BilForhandlerValg {
     static Scanner scanner = new Scanner(System.in);
     static int nyeBiler = 1;
     static int brugteBiler = 2;
+    static int leasingAftaler = 3;
 
     public static void BrugerBeslutning(int valg) {
         int brugerValg;
@@ -29,6 +30,9 @@ public class BilForhandlerValg {
         if(brugerValg == brugteBiler){
             System.out.println("Du har valgt brugte biler");
             return;
+        }
+        if(brugerValg == leasingAftaler){
+
         }
 
         }

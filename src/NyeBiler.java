@@ -37,22 +37,26 @@ static int mercedes = 4;
          KonsolTing.printFordeler(30);
          FerrariModeller.FerrariDisplayInfo("Hvilken ferrari kunne du tænke dig at kigge på?: ");
          KonsolTing.printFordeler(30);
+         BrugerValgFerrariModeller.BrugerValgForskelligeFerrariModeller();
      }
      if (valgAfModel == lamborghini){
          KonsolTing.printFordeler(30);
          LamborghiniModeller.LamborghiniDisplayInfo("Hvilken Lamborghini kunne du tænke dig at kigge på?: ");
          KonsolTing.printFordeler(30);
+         BrugerValgLamborghiniModeller.BrugerValgForskelligeLamborghiniModeller();
      }
      if (valgAfModel == porshce){
          KonsolTing.printFordeler(30);
          PorscheModeller.PorscheDisplayInfo("Hvilken Porsche kunne du tænke dig at kigge på?");
          KonsolTing.printFordeler(30);
+         BrugerValgPorscheModeller.BrugerValgForskelligePorscheModeller();
      }
 
      if (valgAfModel == mercedes){
          KonsolTing.printFordeler(30);
-         MercedesModeller.FerrariDisplayInfo("Hvilen Mercedes kunne du tænke dig at kigge på?");
+         MercedesModeller.MercedesDisplayInfo("Hvilen Mercedes kunne du tænke dig at kigge på?");
          KonsolTing.printFordeler(30);
+         BrugerValgMercedesModeller.BrugerValgForskelligeMercedesModeller();
      }
 
  }
