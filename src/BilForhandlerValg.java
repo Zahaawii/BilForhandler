@@ -28,7 +28,13 @@ public class BilForhandlerValg {
             return;
         }
         if(brugerValg == brugteBiler){
-            System.out.println("Du har valgt brugte biler");
+            BrugerValgBrugteBiler.BruugteBilerDisplayInfo("Du har valgt at se på brugte biler");
+            BrugerValgBrugteBiler.BrugteBilerTrykForAtGåVidere();
+            BrugerValgBrugteBiler.brugteBilModeller("Vi har disse biler klar til at blive leased");
+            BrugerValgBrugteBiler.brugerValgLeasingBil("Tast 1, 2, 3 eller 4 ");
+            BrugerValgBrugteBiler.TilføjEkstraTilBil();
+            BrugerValgBrugteBiler.endeligeBestilling();
+
             return;
         }
         if(brugerValg == leasingAftaler){
