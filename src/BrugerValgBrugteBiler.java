@@ -87,6 +87,9 @@ public class BrugerValgBrugteBiler {
         System.out.println("Tak for din ordre " + "\nDit ordrenummer er: " + OrdreNummer.OrdrenummerOprettet());
         KonsolTing.printFordeler(30);
         System.out.println("Din ordre består af:");
+        //Mangler at finde ud af hvordan jeg får input til at stå her:
+        KonsolTing.printFordeler(30);
+        System.out.println("Bil valg her");
 
         /*
 

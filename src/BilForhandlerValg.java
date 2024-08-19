@@ -30,7 +30,7 @@ public class BilForhandlerValg {
         if(brugerValg == brugteBiler){
             BrugerValgBrugteBiler.BruugteBilerDisplayInfo("Du har valgt at se på brugte biler");
             BrugerValgBrugteBiler.BrugteBilerTrykForAtGåVidere();
-            BrugerValgBrugteBiler.brugteBilModeller("Vi har disse biler klar til at blive leased");
+            BrugerValgBrugteBiler.brugteBilModeller("Vi har disse brugte biler på lager");
             BrugerValgBrugteBiler.brugerValgLeasingBil("Tast 1, 2, 3 eller 4 ");
             BrugerValgBrugteBiler.TilføjEkstraTilBil();
             BrugerValgBrugteBiler.endeligeBestilling();
@@ -38,8 +38,9 @@ public class BilForhandlerValg {
             return;
         }
         if(brugerValg == leasingAftaler){
-            System.out.println("noob");
-
+            LeasingAftaler.LeasingAftalerDisplay("Du har valgt at se på vores leasing aftaler");
+            LeasingAftaler info = new LeasingAftaler();
+            info.LeasingAftalerBrugerInformationer();
         }
 
         }
