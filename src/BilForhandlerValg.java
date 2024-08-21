@@ -41,6 +41,7 @@ public class BilForhandlerValg {
             LeasingAftaler.LeasingAftalerDisplay("Du har valgt at se på vores leasing aftaler");
             LeasingAftaler info = new LeasingAftaler();
             info.LeasingAftalerBrugerInformationer();
+            info.valgMuligheder("Du kan vælge disse tre leasing aftaler", "indtast dit valg her");
         }
 
         }

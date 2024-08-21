@@ -7,6 +7,9 @@ public class LeasingAftaler {
     private String navn;
     private String adresse;
     private int alder;
+    int etÅr = 12;
+    int toÅr = 24;
+    int treÅr = 36;
 
     public String getNavn() {
         return navn;
@@ -57,8 +60,40 @@ public class LeasingAftaler {
         if(this.getAlder() >= 18){
             System.out.println("Hej " + this.getNavn());
         } else {
-            System.out.println("Du er ikke gammel nok til at lease en bil");
+            System.out.println("Du er ikke gammel nok til at lease en bil.");
+            System.exit(30);
         }
+    }
+
+    public void valgMuligheder(String prompt, String prompt2){
+        KonsolTing.printFordeler(30);
+        System.out.println(prompt);
+        System.out.println("Vi har: " + "\n1: " + etÅr + " måneder"+ "\n2: " + toÅr + " måneder " + "\n3: " + treÅr + " måneder");
+        KonsolTing.printFordeler(30);
+        System.out.println(prompt2);
+        int brugerValgLeasingPeriode = scanner.nextInt();
+
+        switch (brugerValgLeasingPeriode){
+            case 1:
+                System.out.println("Du har valgt at se vores 12 måneders leasing aftale");
+                LeasingAftalerMåneder.etÅrsLeasingAftale("Du kan vælge følgende biler:", 1);
+                break;
+
+            case 2:
+                System.out.println("Du har valgt at se vores 24 måneders leasing aftale");
+                LeasingAftalerMåneder.toÅrsLeasingAftale("Du kan vælge følgende biler:", 1);
+                break;
+
+            case 3:
+                System.out.println("Du har valgt at se vores 36 måneders leasing aftale");
+                LeasingAftalerMåneder.treÅrsLeasingAftale("Du kan vælge følgende biler:", 1);
+                break;
+
+            default:
+                System.out.println("Du har tastet et forkert valg. Du må starte forfra.");
+                break;
+        }
+
     }
 
 }

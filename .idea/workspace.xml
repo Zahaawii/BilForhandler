@@ -4,11 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9ca7cf53-d11a-4c8c-b540-0e59f057c520" name="Changes" comment="fifth commit brugte biler">
-      <change afterPath="$PROJECT_DIR$/src/LeasingAftaler.java" afterDir="false" />
+    <list default="true" id="9ca7cf53-d11a-4c8c-b540-0e59f057c520" name="Changes" comment="Sixth commit LeasingAftaler">
+      <change afterPath="$PROJECT_DIR$/src/LeasingAftalerMåneder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/PrisOmregner.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/BilForhandlerValg.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BilForhandlerValg.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/BrugerValgBrugteBiler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BrugerValgBrugteBiler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LeasingAftaler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LeasingAftaler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -102,7 +104,7 @@
       <updated>1723472411472</updated>
       <workItem from="1723472412489" duration="19743000" />
       <workItem from="1723745652109" duration="6168000" />
-      <workItem from="1724093189172" duration="1719000" />
+      <workItem from="1724093189172" duration="5340000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <option name="closed" value="true" />
@@ -152,7 +154,15 @@
       <option name="project" value="LOCAL" />
       <updated>1723750311580</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Sixth commit LeasingAftaler">
+      <option name="closed" value="true" />
+      <created>1724095479169</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1724095479169</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -175,6 +185,7 @@
     <MESSAGE value="Third commit" />
     <MESSAGE value="Fourth commit" />
     <MESSAGE value="fifth commit brugte biler" />
-    <option name="LAST_COMMIT_MESSAGE" value="fifth commit brugte biler" />
+    <MESSAGE value="Sixth commit LeasingAftaler" />
+    <option name="LAST_COMMIT_MESSAGE" value="Sixth commit LeasingAftaler" />
   </component>
 </project>
